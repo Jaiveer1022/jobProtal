@@ -20,7 +20,6 @@ public class MyConfig {
 				registry.addMapping("/**")
 						.allowedOrigins(
 //								"http://localhost:3001"
-								"https://jobportal-frontend-ynnl.onrender.com"
 						)
 						.allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
 						.allowedHeaders("*")
