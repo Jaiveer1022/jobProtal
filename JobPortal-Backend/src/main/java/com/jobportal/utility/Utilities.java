@@ -20,6 +20,8 @@ public class Utilities {
 	public void setMongoOperation(MongoOperations mongoOperation) {
 		Utilities.mongoOperation = mongoOperation;
 	}
+	
+	
 
 	public static Long getNextSequenceId(String key) throws JobPortalException {
 		Query query = new Query(Criteria.where("_id").is(key));
